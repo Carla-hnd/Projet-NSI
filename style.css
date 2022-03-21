@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2? family= Libre+Baskerville:wght@700 &famille= Lora:wght@500 &famille= Playfair+Display+SC & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Libre+Baskerville:wght@700 &famille= Playfair+Display+SC & display=swap');
+html {
+  scroll-behavior: smooth;
+}
+body{
+  	scroll-behavior: smooth;
+	margin: 0;
+	padding: 0;
+	font-family: 'Lora', sans-serif;
+}
+nav{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 5px solid #f6f6f6;
+}
+nav h1{
+	color: #453d3a
+	font-family: 'Playfair Display', sans-serif;
+}
+nav .onglets{
+	margin-top: 3px;
+	margin-left: 300px;
+}
+nav .onglets a{
+	text-decoration: none;
+	color: #000;
+	margin-right: 10px;
+	border-bottom: 1px solid #000;
+	padding-bottom: 5px;
+}
+header{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	background: url('img/cerveau.jpg');
+	background-size: cover;
+	color: #000000;
+	padding: 40px;
+}
+header h1{
+	font-family: 'Playfair Display', sans-serif;
+	font-size: 40px;
+}
+header h2{
+	margin-top: 20px;
+	font-size: 20px;
+	text-align: 100%;
+	border-bottom: 1px solid #fcfcfc;
+}
+header button{
+	padding: 10px 20px;
+	background-color: #fff;
+	color: #fa0505;
+	border:none;
+	font-size: 20px;
+	font-family: 'Playfair Display', sans-serif;
+	outline:none;
+	cursor:pointer;
+	font-weight: bolder;
+}
+
+footer{
+	margin-top: 40px;
+	border-top: 5px solid #6f6f6f;
+	background-color: rgb(3, 73, 131);
+	color: #fff;
+	padding: 30px 100px;
+}
+.footer-area{
+margin-top:75px;
+padding: 75px;
+box-sizing: border-box;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media screen and (max-width: 680px){
+	nav .onglets{
+		margin-left: 0px;
+		margin-bottom: 20px;
+	}
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+.statement{
+	border: 5px solid red;
+	padding: 20px;
+	text-align: center;
+	margin: 50px;
+}
+.answer-buttons{
+	text-align: center;
+}
+.answer-button{
+	margin: 0 10px;
+	padding: 20px 30px;
+	cursor: pointer;
+}
+.true-button{
+	background-color: rgb(12, 182, 12);
+}
+.false-button{
+	background-color: rgb(253, 7, 7);
+}
+
+.finish-screen {
+	text-align: center;
+	display: none;
+}
